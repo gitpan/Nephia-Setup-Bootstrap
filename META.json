@@ -1,0 +1,85 @@
+{
+   "abstract" : "Template for Nephia",
+   "author" : [
+      "papix <mail@papix.net>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.5.3",
+   "license" : "perl_5",
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Nephia-Setup-Bootstrap",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Nephia" : "0",
+            "perl" : "5.010001"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Capture::Tiny" : "0",
+            "Cwd" : "0",
+            "File::Temp" : "0",
+            "Guard" : "0",
+            "Plack::Test" : "0",
+            "Test::More" : "0.98"
+         }
+      }
+   },
+   "provides" : {
+      "Nephia::Setup::Bootstrap" : {
+         "file" : "lib/Nephia/Setup/Bootstrap.pm",
+         "version" : "0.01"
+      },
+      "Nephia::Setup::Bootstrap::TwitterBootstrap" : {
+         "file" : "lib/Nephia/Setup/Bootstrap/TwitterBootstrap.pm"
+      },
+      "Nephia::Setup::Bootstrap::jQuery" : {
+         "file" : "lib/Nephia/Setup/Bootstrap/jQuery.pm"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/papix/Nephia-Setup-Bootstrap/issues"
+      },
+      "homepage" : "https://github.com/papix/Nephia-Setup-Bootstrap",
+      "repository" : {
+         "url" : "git://github.com/papix/Nephia-Setup-Bootstrap.git",
+         "web" : "https://github.com/papix/Nephia-Setup-Bootstrap"
+      }
+   },
+   "version" : "0.01",
+   "x_contributors" : [
+      "ytnobody <ytnobody@gmail.com>"
+   ]
+}

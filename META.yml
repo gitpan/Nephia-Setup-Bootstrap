@@ -1,0 +1,49 @@
+---
+abstract: 'Template for Nephia'
+author:
+  - 'papix <mail@papix.net>'
+build_requires:
+  Capture::Tiny: 0
+  Cwd: 0
+  File::Temp: 0
+  Guard: 0
+  Plack::Test: 0
+  Test::More: 0.98
+configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.130880'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Nephia-Setup-Bootstrap
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+provides:
+  Nephia::Setup::Bootstrap:
+    file: lib/Nephia/Setup/Bootstrap.pm
+    version: 0.01
+  Nephia::Setup::Bootstrap::TwitterBootstrap:
+    file: lib/Nephia/Setup/Bootstrap/TwitterBootstrap.pm
+  Nephia::Setup::Bootstrap::jQuery:
+    file: lib/Nephia/Setup/Bootstrap/jQuery.pm
+requires:
+  Nephia: 0
+  perl: 5.010001
+resources:
+  bugtracker: https://github.com/papix/Nephia-Setup-Bootstrap/issues
+  homepage: https://github.com/papix/Nephia-Setup-Bootstrap
+  repository: git://github.com/papix/Nephia-Setup-Bootstrap.git
+version: 0.01
+x_contributors:
+  - 'ytnobody <ytnobody@gmail.com>'
