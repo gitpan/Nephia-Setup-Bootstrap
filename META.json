@@ -40,7 +40,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Nephia" : "0",
+            "Nephia" : "0.19",
             "perl" : "5.010001"
          }
       },
@@ -58,7 +58,7 @@
    "provides" : {
       "Nephia::Setup::Bootstrap" : {
          "file" : "lib/Nephia/Setup/Bootstrap.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Nephia::Setup::Bootstrap::TwitterBootstrap" : {
          "file" : "lib/Nephia/Setup/Bootstrap/TwitterBootstrap.pm"
@@ -78,7 +78,7 @@
          "web" : "https://github.com/papix/Nephia-Setup-Bootstrap"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
       "ytnobody <ytnobody@gmail.com>"
    ]

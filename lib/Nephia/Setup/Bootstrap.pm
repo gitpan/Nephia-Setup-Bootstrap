@@ -5,7 +5,7 @@ use warnings;
 use Nephia::Setup::Bootstrap::TwitterBootstrap;
 use Nephia::Setup::Bootstrap::jQuery;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub css_file {
     my $self = shift;
