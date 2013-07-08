@@ -1,5 +1,10 @@
 Revision history for Perl extension Nephia-Setup-Bootstrap
 
+0.03 2013-07-08T02:49:14Z
+
+    - Fix some tests.
+    - Upgrade to jQuery 1.10.2
+
 0.02 2013-06-28T01:59:53Z
 
     - Specify version of Nephia as 0.19

@@ -23,13 +23,18 @@ my $setup = Nephia::Setup->new(
 isa_ok $setup, 'Nephia::Setup::Base';
 can_ok $setup, 'create';
 
-my($out, $err, @res) = capture {
-    $setup->create;
-};
+subtest create => sub {
+    my($out, $err, @res) = capture {
+        $setup->create;
+    };
 
-is $err, '', 'setup error';
-my $expect = join ('', (<DATA>));
-like $out, qr/$expect/, 'setup step';
+    is $err, '', 'setup error';
+    my $expect = join('',(<DATA>));
+    if ($^O eq 'MSWin32') {
+        $expect =~ s/\//\\/g;
+    }
+    like $out, qr/$expect/, 'setup step';
+};
 
 undef($guard);
 
