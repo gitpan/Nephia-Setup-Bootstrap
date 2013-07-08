@@ -46,6 +46,8 @@
       },
       "test" : {
          "requires" : {
+            "Capture::Tiny" : "0",
+            "Guard" : "0",
             "Test::More" : "0.98"
          }
       }
@@ -53,7 +55,7 @@
    "provides" : {
       "Nephia::Setup::Bootstrap" : {
          "file" : "lib/Nephia/Setup/Bootstrap.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       },
       "Nephia::Setup::Bootstrap::TwitterBootstrap" : {
          "file" : "lib/Nephia/Setup/Bootstrap/TwitterBootstrap.pm"
@@ -73,7 +75,7 @@
          "web" : "https://github.com/papix/Nephia-Setup-Bootstrap"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_contributors" : [
       "ytnobody <ytnobody@gmail.com>"
    ]
