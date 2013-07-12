@@ -1,5 +1,9 @@
 Revision history for Perl extension Nephia-Setup-Bootstrap
 
+0.05 2013-07-12T10:59:04Z
+
+    - Fix template
+
 0.04 2013-07-08T03:07:03Z
 
     - Fix cpanfile
